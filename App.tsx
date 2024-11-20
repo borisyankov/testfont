@@ -7,6 +7,7 @@
 
 import React from 'react';
 import {
+  Platform,
   SafeAreaView,
   StatusBar,
   StyleSheet,
@@ -15,7 +16,28 @@ import {
   View,
 } from 'react-native';
 
+import {
+  configureFonts,
+  MD3LightTheme,
+  PaperProvider,
+  Text as PaperText,
+} from 'react-native-paper';
+
 import {Colors} from 'react-native/Libraries/NewAppScreen';
+
+const fontConfig = {
+  fontFamily: Platform.select({
+    web: 'Mulish Black, sans-serif',
+    ios: 'Mulish Black',
+    android: 'mulishblack',
+    default: 'sans-serif',
+  }),
+};
+
+const theme = {
+  ...MD3LightTheme,
+  fonts: configureFonts({config: fontConfig}),
+};
 
 function App(): React.JSX.Element {
   const isDarkMode = useColorScheme() === 'dark';
@@ -25,17 +47,20 @@ function App(): React.JSX.Element {
   };
 
   return (
-    <SafeAreaView style={styles.screen}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <View style={styles.sectionContainer}>
-        <Text style={styles.default}>1234567890 (default)</Text>
-        <Text style={styles.first}>1234567890 (first)</Text>
-        <Text style={styles.second}>1234567890 (second)</Text>
-      </View>
-    </SafeAreaView>
+    <PaperProvider theme={theme}>
+      <SafeAreaView style={styles.screen}>
+        <StatusBar
+          barStyle={isDarkMode ? 'light-content' : 'dark-content'}
+          backgroundColor={backgroundStyle.backgroundColor}
+        />
+        <View style={styles.sectionContainer}>
+          <Text style={styles.default}>1234567890 (default)</Text>
+          <Text style={styles.first}>1234567890 (first)</Text>
+          <Text style={styles.second}>1234567890 (second)</Text>
+          <PaperText style={styles.default}>1234567890 (paper)</PaperText>
+        </View>
+      </SafeAreaView>
+    </PaperProvider>
   );
 }
 

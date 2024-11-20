@@ -12,8 +12,16 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		24B587E5F5874E8FA4274C89 /* Mulish-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F76E2012617147578A14A424 /* Mulish-Light.ttf */; };
+		540D49F87EA74A4CB7ABA372 /* Mulish-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6A253ACE8E04606A5CBB3FB /* Mulish-ExtraBold.ttf */; };
+		5814B9BDC5937DDB3D79EA31 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		6DB5E6D962184F8FABF225BF /* Mulish-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3682D18EADD44F48921A62DD /* Mulish-Black.ttf */; };
 		7699B88040F8A987B510C191 /* libPods-testfont-testfontTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-testfont-testfontTests.a */; };
+		77EC003F624140E08B325B98 /* Mulish-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56F219B46AA340B6AAA1494A /* Mulish-Regular.ttf */; };
+		8121F8FA98DC4DFFBB82EDB4 /* Mulish-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4F067FC72CBF4F3F913C8BDC /* Mulish-SemiBold.ttf */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		956F1323212549E19917CB03 /* Mulish-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4803BDED11464BCFA7A6CCD8 /* Mulish-Bold.ttf */; };
+		C8D5587B81254E429B5024C2 /* Mulish-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CABD19ED3DA6421FBB35B29F /* Mulish-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,13 +46,20 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = testfont/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = testfont/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-testfont-testfontTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testfont-testfontTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3682D18EADD44F48921A62DD /* Mulish-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Black.ttf"; path = "../assets/fonts/Mulish-Black.ttf"; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-testfont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testfont.debug.xcconfig"; path = "Target Support Files/Pods-testfont/Pods-testfont.debug.xcconfig"; sourceTree = "<group>"; };
+		4803BDED11464BCFA7A6CCD8 /* Mulish-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Bold.ttf"; path = "../assets/fonts/Mulish-Bold.ttf"; sourceTree = "<group>"; };
+		4F067FC72CBF4F3F913C8BDC /* Mulish-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-SemiBold.ttf"; path = "../assets/fonts/Mulish-SemiBold.ttf"; sourceTree = "<group>"; };
+		56F219B46AA340B6AAA1494A /* Mulish-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Regular.ttf"; path = "../assets/fonts/Mulish-Regular.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-testfont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testfont.release.xcconfig"; path = "Target Support Files/Pods-testfont/Pods-testfont.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-testfont-testfontTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testfont-testfontTests.debug.xcconfig"; path = "Target Support Files/Pods-testfont-testfontTests/Pods-testfont-testfontTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-testfont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-testfont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = testfont/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-testfont-testfontTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testfont-testfontTests.release.xcconfig"; path = "Target Support Files/Pods-testfont-testfontTests/Pods-testfont-testfontTests.release.xcconfig"; sourceTree = "<group>"; };
+		CABD19ED3DA6421FBB35B29F /* Mulish-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Medium.ttf"; path = "../assets/fonts/Mulish-Medium.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F6A253ACE8E04606A5CBB3FB /* Mulish-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-ExtraBold.ttf"; path = "../assets/fonts/Mulish-ExtraBold.ttf"; sourceTree = "<group>"; };
+		F76E2012617147578A14A424 /* Mulish-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "Mulish-Light.ttf"; path = "../assets/fonts/Mulish-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +97,21 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0466A034625F450BBFCE9ACA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3682D18EADD44F48921A62DD /* Mulish-Black.ttf */,
+				4803BDED11464BCFA7A6CCD8 /* Mulish-Bold.ttf */,
+				F6A253ACE8E04606A5CBB3FB /* Mulish-ExtraBold.ttf */,
+				F76E2012617147578A14A424 /* Mulish-Light.ttf */,
+				CABD19ED3DA6421FBB35B29F /* Mulish-Medium.ttf */,
+				56F219B46AA340B6AAA1494A /* Mulish-Regular.ttf */,
+				4F067FC72CBF4F3F913C8BDC /* Mulish-SemiBold.ttf */,
+			);
+			name = Resources;
+			path = "";
 			sourceTree = "<group>";
 		};
 		13B07FAE1A68108700A75B9A /* testfont */ = {
@@ -124,6 +154,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				0466A034625F450BBFCE9ACA /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -245,6 +276,14 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				6DB5E6D962184F8FABF225BF /* Mulish-Black.ttf in Resources */,
+				956F1323212549E19917CB03 /* Mulish-Bold.ttf in Resources */,
+				540D49F87EA74A4CB7ABA372 /* Mulish-ExtraBold.ttf in Resources */,
+				24B587E5F5874E8FA4274C89 /* Mulish-Light.ttf in Resources */,
+				C8D5587B81254E429B5024C2 /* Mulish-Medium.ttf in Resources */,
+				77EC003F624140E08B325B98 /* Mulish-Regular.ttf in Resources */,
+				8121F8FA98DC4DFFBB82EDB4 /* Mulish-SemiBold.ttf in Resources */,
+				5814B9BDC5937DDB3D79EA31 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -584,7 +623,14 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
 			};
 			name = Debug;
 		};
@@ -649,7 +695,13 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					" ",
+				);
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
+				USE_HERMES = true;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
